@@ -351,3 +351,129 @@ MigrationBackup/
 
 # UNOTES MD Extension
 .unotes/
+
+# gitignore for the PHP Codesniffer framework
+# website: https://github.com/squizlabs/PHP_CodeSniffer
+#
+# https://github.com/github/gitignore/blob/main/community/PHP/CodeSniffer.gitignore
+
+/wpcs/
+
+# https://github.com/github/gitignore/blob/main/Global/CVS.gitignore
+/CVS/*
+**/CVS/*
+.cvsignore
+*/.cvsignore
+
+# Dropbox settings and caches
+# https://github.com/github/gitignore/blob/main/Global/Dropbox.gitignore
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# https://github.com/github/gitignore/blob/main/Global/Linux.gitignore
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Notepad++ backups #
+# https://github.com/github/gitignore/blob/main/Global/NotepadPP.gitignore
+*.bak
+
+
+# Ignore redis binary dump (dump.rdb) files
+# https://github.com/github/gitignore/blob/main/Global/Redis.gitignore
+*.rdb
+
+# https://github.com/github/gitignore/blob/main/Global/SVN.gitignore
+.svn/
+
+# Project-level settings
+# https://github.com/github/gitignore/blob/main/Global/TortoiseGit.gitignore
+/.tgitconfig
+
+
+# General Vagrant files
+# https://github.com/github/gitignore/blob/main/Global/Vagrant.gitignore
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+# Windows thumbnail cache files
+# https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# General MacOS Files
+# https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
