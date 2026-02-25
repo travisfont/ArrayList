@@ -1,5 +1,7 @@
 <?php
 
+namespace Qsl\Tests;
+
 use Qsl\ArrayList;
 use PHPUnit\Framework\TestCase;
 
