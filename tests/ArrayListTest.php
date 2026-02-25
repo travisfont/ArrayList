@@ -1,8 +1,8 @@
 <?php
 
-namespace Qsl\Tests;
+namespace ArrayList\Tests;
 
-use Qsl\ArrayList;
+use ArrayList\ArrayList;
 use PHPUnit\Framework\TestCase;
 use OutOfBoundsException;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Qsl;
+namespace ArrayList;
 
 use OutOfBoundsException;
 use JsonException;
