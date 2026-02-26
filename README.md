@@ -1,8 +1,8 @@
-# QuickStartLibs ArrayList for PHP
+# PHP ArrayList Implementation
 
-A minimalistic, lightweight, strictly-typed PHP implementation of a dynamic list, inspired by Java's `ArrayList`.
+A minimalistic, lightweight, strictly-typed soft implementation in PHP of a dynamic list, inspired by Java's ArrayList.
 
-This library gives you an object-oriented, strictly-typed API to manage arrays without directly relying on core PHP array functions. It features built-in exception handling (e.g. `OutOfBoundsException`) and strict positive/negative method validations for more robust applications.
+This library gives you an object-oriented, strictly-typed API to manage arrays without directly relying on core PHP array functions. It features built-in exception handling (e.g. OutOfBoundsException) and strict positive/negative method validations for more robust applications.
 
 ---
 
